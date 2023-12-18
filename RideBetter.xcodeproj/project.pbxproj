@@ -14,6 +14,12 @@
 		0E9970D42A357D6D0050AACB /* RideBetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970D32A357D6D0050AACB /* RideBetterTests.swift */; };
 		0E9970DE2A357D6D0050AACB /* RideBetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970DD2A357D6D0050AACB /* RideBetterUITests.swift */; };
 		0E9970E02A357D6D0050AACB /* RideBetterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970DF2A357D6D0050AACB /* RideBetterUITestsLaunchTests.swift */; };
+		0E9970F12A380F150050AACB /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970F02A380F150050AACB /* ContentViewModel.swift */; };
+		0E9970F72A3813BA0050AACB /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970F62A3813BA0050AACB /* LocationView.swift */; };
+		0E9970FD2A3C23520050AACB /* LyftVsUber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970FC2A3C23520050AACB /* LyftVsUber.swift */; };
+		0E9970FF2A440A300050AACB /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970FE2A440A300050AACB /* Address.swift */; };
+		0E9971032A46075D0050AACB /* PriceEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9971022A46075D0050AACB /* PriceEstimate.swift */; };
+		0E9971052A46077A0050AACB /* UberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9971042A46077A0050AACB /* UberModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		0E9970D92A357D6D0050AACB /* RideBetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideBetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9970DD2A357D6D0050AACB /* RideBetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideBetterUITests.swift; sourceTree = "<group>"; };
 		0E9970DF2A357D6D0050AACB /* RideBetterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideBetterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E9970F02A380F150050AACB /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		0E9970F62A3813BA0050AACB /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		0E9970FC2A3C23520050AACB /* LyftVsUber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyftVsUber.swift; sourceTree = "<group>"; };
+		0E9970FE2A440A300050AACB /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		0E9971022A46075D0050AACB /* PriceEstimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceEstimate.swift; sourceTree = "<group>"; };
+		0E9971042A46077A0050AACB /* UberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				0E9970C22A357D6C0050AACB /* RideBetterApp.swift */,
+				0E9970F02A380F150050AACB /* ContentViewModel.swift */,
+				0E9970FE2A440A300050AACB /* Address.swift */,
 				0E9970C42A357D6C0050AACB /* ContentView.swift */,
+				0E9970FC2A3C23520050AACB /* LyftVsUber.swift */,
+				0E9971022A46075D0050AACB /* PriceEstimate.swift */,
+				0E9971042A46077A0050AACB /* UberModel.swift */,
+				0E9970F62A3813BA0050AACB /* LocationView.swift */,
 				0E9970C62A357D6D0050AACB /* Assets.xcassets */,
 				0E9970C82A357D6D0050AACB /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9971032A46075D0050AACB /* PriceEstimate.swift in Sources */,
+				0E9971052A46077A0050AACB /* UberModel.swift in Sources */,
+				0E9970FF2A440A300050AACB /* Address.swift in Sources */,
 				0E9970C52A357D6C0050AACB /* ContentView.swift in Sources */,
+				0E9970FD2A3C23520050AACB /* LyftVsUber.swift in Sources */,
 				0E9970C32A357D6C0050AACB /* RideBetterApp.swift in Sources */,
+				0E9970F72A3813BA0050AACB /* LocationView.swift in Sources */,
+				0E9970F12A380F150050AACB /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

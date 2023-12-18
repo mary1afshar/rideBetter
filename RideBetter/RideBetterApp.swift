@@ -2,7 +2,7 @@
 //  RideBetterApp.swift
 //  RideBetter
 //
-//  Created by Maryam Afshar on 2023-06-10.
+//  Created by Maryam Afshar on 2023-12-10.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct RideBetterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ContentViewModel())
         }
     }
 }
