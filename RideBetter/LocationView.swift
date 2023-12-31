@@ -20,26 +20,36 @@ struct LocationView: View {
 
       var body: some View {
           VStack {
-              MapView(directions: $directions, s1: $s1, s2: $s2, e1: $e1, e2: $e2)
+              MapView(directions: $directions, s1: $s1, s2: $s2, e1: $e1, e2: $e2).ignoresSafeArea()
               
               Text("Does this Route Look Correct?").padding(10)
               
               HStack {
-                  Button("No") {
+                  Button(action: {
                       presentationMode.wrappedValue.dismiss()
-                      
+                  }) {
+                      Text("No")
+                          .foregroundColor(.white)
+                          .padding(8)
+                          .background(Color.red)
+                          .cornerRadius(8)
+                          .shadow(color: .gray, radius: 3, x: 1, y: 1)
                   }
-                  Button("Yes") {
+
+                  Button(action: {
                       self.showDirections.toggle()
+                  }) {
+                      Text("Yes")
+                          .foregroundColor(.white)
+                          .padding(8)
+                          .background(Color.green)
+                          .cornerRadius(8)
+                          .shadow(color: .gray, radius: 3, x: 1, y: 1)
                   }
                   .disabled(directions.isEmpty)
                   .padding()
               }}.sheet(isPresented: $showDirections, content: {
           VStack(spacing: 0) {
-            Text("Better Ride")
-              .font(.largeTitle)
-              .bold()
-              .padding()
               LyftVsUber(s1: $s1, s2: $s2, e1: $e1, e2: $e2)
           }
         })

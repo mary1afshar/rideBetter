@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5475CB2B40C89500E26B60 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5475CA2B40C89500E26B60 /* SplashScreen.swift */; };
 		0E9970C32A357D6C0050AACB /* RideBetterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970C22A357D6C0050AACB /* RideBetterApp.swift */; };
 		0E9970C52A357D6C0050AACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9970C42A357D6C0050AACB /* ContentView.swift */; };
 		0E9970C72A357D6D0050AACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9970C62A357D6D0050AACB /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5475CA2B40C89500E26B60 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		0E9970BF2A357D6C0050AACB /* RideBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9970C22A357D6C0050AACB /* RideBetterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideBetterApp.swift; sourceTree = "<group>"; };
 		0E9970C42A357D6C0050AACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				0E9970C42A357D6C0050AACB /* ContentView.swift */,
 				0E9970FC2A3C23520050AACB /* LyftVsUber.swift */,
 				0E9971022A46075D0050AACB /* PriceEstimate.swift */,
+				0E5475CA2B40C89500E26B60 /* SplashScreen.swift */,
 				0E9971042A46077A0050AACB /* UberModel.swift */,
 				0E9970F62A3813BA0050AACB /* LocationView.swift */,
 				0E9970C62A357D6D0050AACB /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5475CB2B40C89500E26B60 /* SplashScreen.swift in Sources */,
 				0E9971032A46075D0050AACB /* PriceEstimate.swift in Sources */,
 				0E9971052A46077A0050AACB /* UberModel.swift in Sources */,
 				0E9970FF2A440A300050AACB /* Address.swift in Sources */,
